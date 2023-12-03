@@ -4,15 +4,18 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 
+
 }
 
 body{
   background-color: hsla(0, 0%, 100%, 1);
+  height: 6000px;
 }
 
 .container{
   width: 1440px;
   margin: auto;
+  
 }
 
 nav{
@@ -1012,4 +1015,136 @@ textarea{
   border-radius: 4px;
   border-color: hsla(226, 20%, 90%, 1);
   border: solid 1px;
+}
+
+.bottom{
+  width: 1440px;
+  height: 377px;
+  background-color: hsla(0, 0%, 100%, 1);
+  margin-top: 13px;
+  padding-left: 112px;
+  padding-top: 85px;
+  display: flex;
+  gap: 323px;
+}
+
+.bottomInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+
+  >p{
+  color: hsla(226, 20%, 20%, 1);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+
+
+  >b{
+    color: hsla(226, 61%, 41%, 1);
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+
+  }
+  }
+
+  >.address{
+    display: flex;
+    gap: 13px;
+  }
+
+  >.phone{
+    display: flex;
+    gap: 34px;
+  }
+
+  >.email{
+    display: flex;
+    gap: 41px;
+  }
+}
+
+.newsletter>b{
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+  color: hsla(226, 61%, 41%, 1);
+}
+
+.newsletterInputContainer{
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+
+  >input{
+    padding: 10px 8px;
+    width: 280px;
+    color: hsla(226, 20%, 70%, 1);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    font-weight: 400;
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: hsla(226, 20%, 90%, 1);
+  }
+
+  >button{
+    height: 41px;
+    width: 136px;
+    padding: 16px 20px;
+    border-radius: 4px;
+    background-color: hsla(23, 93%, 67%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-color: hsla(23, 93%, 67%, 1);
+    cursor: pointer;
+  }
+}
+
+.socials{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 42px;
+
+  >b{
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+  color: hsla(226, 61%, 41%, 1);
+  }
+
+  >.socialsLogoContainer{
+    display: flex;
+    gap: 20px;
+  }
+}
+
+footer{
+  width: 1440px;
+  height: 70px;
+  background-color: hsla(226, 61%, 41%, 1);
+  padding-left: 112px;
+  display: flex;
+  align-items: center;
+
+
+  >p{
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 1);
+    font-style: normal;
+    line-height: normal;
+  }
 }
