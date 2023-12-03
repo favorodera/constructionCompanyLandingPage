@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
-
-
 }
 
 body{
@@ -330,6 +328,7 @@ nav{
   width: 1440px;
   height: 608px;
   background-color: hsla(150, 13%, 97%, 1);
+  padding-top: 44px;
 }
 
 .servicesHeader{
@@ -339,7 +338,6 @@ nav{
   line-height: normal;
   font-style: normal;
   color: hsla(226, 20%, 20%, 1);
-  margin-top: 44px;
   margin-bottom: 36px;
 }
 
